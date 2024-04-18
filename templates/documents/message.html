@@ -1,12 +1,12 @@
-<!-- registration/register.html -->
+<!-- registration/login.html -->
 {%load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Registration</title>
-    <!-- <link rel="stylesheet" href="{% static '/styles.css' %}"> -->
+    <title>User Login</title>
+    <link rel="stylesheet" href="{% static '/styles.css' %}">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -25,12 +25,11 @@
             background-color: #fff;
             border-radius: 10px;
             box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
-            position: relative;
         }
 
         h2 {
             text-align: center;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
         }
 
         form {
@@ -44,9 +43,7 @@
         }
 
         input[type="text"],
-        input[type="email"],
         input[type="password"] {
-            box-sizing: border-box;
             width: 100%;
             padding: 10px;
             margin-bottom: 20px;
@@ -76,23 +73,8 @@
 </head>
 <body>
     <div class="container">
-        <h2>User Registration</h2>
-        <form method="post">
-            {% csrf_token %}
-            <label for="id_username">Username:</label>
-            <input type="text" name="username" id="id_username">
-            <label for="id_email">Email:</label>
-            <input type="email" name="email" id="id_email">
-            <label for="id_password1">Password:</label>
-            <input type="password" name="password" id="id_password">
-            <label for="id_password2">Confirm Password:</label>
-            <input type="password" name="cpassword" id="id_password2">
-            <p>If you already have account <a href="/">Sign In</a></p>
-            {%if error_message%}
-                <p class="error-message">{{error_message}}</p>
-            {%endif%}
-            <button type="submit">Register</button>
-        </form>
+        <h2>{{message}}</h2>
+        <button type="submit" onclick="history.back()">Go Back</button>
     </div>
 </body>
 </html>

@@ -1,0 +1,82 @@
+la
+pwd
+e:
+cd ..
+cd ..
+cd ..
+ls
+cd e
+ls
+cd radio/
+gh repo clone ELProfessor67/audio_stream
+git clone 
+user@DESKTOP-RGSGBDQ MINGW64 ~
+$ la
+bash: la: command not found
+user@DESKTOP-RGSGBDQ MINGW64 ~
+$ pwd
+/c/Users/user
+user@DESKTOP-RGSGBDQ MINGW64 ~
+$ e:
+bash: e:: command not found
+user@DESKTOP-RGSGBDQ MINGW64 ~
+$ cd ..
+user@DESKTOP-RGSGBDQ MINGW64 /c/Users
+$ cd ..
+user@DESKTOP-RGSGBDQ MINGW64 /c
+$ cd ..
+user@DESKTOP-RGSGBDQ MINGW64 /
+$ ls
+LICENSE.txt        cmd/  git-bash.exe*  proc/         unins000.exe*
+ReleaseNotes.html  dev/  git-cmd.exe*   tmp/          unins000.msg
+bin/               etc/  mingw64/       unins000.dat  usr/
+user@DESKTOP-RGSGBDQ MINGW64 /
+$ cd e
+user@DESKTOP-RGSGBDQ MINGW64 /e
+$ ls
+'$RECYCLE.BIN'/
+ 391.35-desktop-win10-64bit-international-whql.exe*
+'HG LIVE 2'/
+'System Volume Information'/
+ apollo-easy-scrape-main/
+ audio_stream/
+ audio_stream_socket.io/
+ backennd/
+ blog-app/
+ blog-app-api/
+ c++/
+ dashboard/
+ docker-tut/
+ face-detector/
+ hg-Frontend-full/
+ hg-live-mediasoup/
+ keyword-generater/
+ manage-business/
+ my-final-space-characters/
+ polymath/
+ radio/
+ reddit/
+ rtmp/
+ rtmp-player/
+ rtmp_player/
+ scapping/
+ screenShare/
+ stream_project/
+ streaming-app-backend/
+ teching/
+ test/
+ test-frontend/
+ ubuntu-22.04.3-desktop-amd64.iso
+ well-fail/
+ xmapp/
+user@DESKTOP-RGSGBDQ MINGW64 /e
+$ cd radio/
+user@DESKTOP-RGSGBDQ MINGW64 /e/radio
+$ gh repo clone ELProfessor67/audio_stream
+bash: gh: command not found
+user@DESKTOP-RGSGBDQ MINGW64 /e/radio
+$ git clone
+$ git clone https://github.com/ELProfessor67/audio_stream.git
+git
+git clone https://github.com/ELProfessor67/audio_stream.git
+cls

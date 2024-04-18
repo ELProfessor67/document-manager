@@ -106,7 +106,7 @@ def sendmail(request, document_id,user_id):
 
     send_mail(subject, message, from_email, recipient_list)
 
-    return HttpResponse('Email sent successfully!')
+    return render(request,'documents/message.html',{"message":'Email sent successfully!'})
 
 
     # return render(request, 'documents/alluser.html')
@@ -133,6 +133,6 @@ def getOneDoucment(request, document_id):
             document_file.save()
 
     
-        return HttpResponse('Document Submit successfully!')
+        return render(request,'documents/message.html',{"message":'Document Submit successfully!'})
     
     return render(request, 'documents/documentform.html',{"default_document":default_document})
